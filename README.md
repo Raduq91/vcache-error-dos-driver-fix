@@ -1,3 +1,15 @@
+Used nasm to build the vcache fix obj file, command:
+nasm cregfix.asm -f obj -o maine.obj
+
+maine.obj in the same folder with makefile.
+Installed Open Watcom 2.
+Opened new cmd window in C:\WATCOM
+In the cmd window executed 'owsetenv.bat'
+In the cmd window 'cd' to 'dos-device-driver-main' folder path
+In the cmd window execute command 'wmake'
+
+
+______________________________________________________________
 ### Template for writing DOS Device Drivers in Open Watcom C
 
 #### About
