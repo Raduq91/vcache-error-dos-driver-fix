@@ -32,7 +32,7 @@ extern void maine_(void);
 //
 // Place here any variables or constants that should go away after initialization
 //
-static char hellomsg[] = "\r\nDOS Device Driver VCACHE error fix C\r\n$";
+static char hellomsg[] = "\r\nDOS Device Driver VCACHE error fix\r\n$";
 
 uint16_t DeviceInit( void )
 {
