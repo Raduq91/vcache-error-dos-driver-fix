@@ -26,15 +26,17 @@
 #include "devinit.h"
 #include "template.h"
 
+extern void maine_(void);
 #pragma data_seg("_CODE")
 
 //
 // Place here any variables or constants that should go away after initialization
 //
-static char hellomsg[] = "\r\nDOS Device Driver Template in Open Watcom C\r\n$";
+static char hellomsg[] = "\r\nDOS Device Driver VCACHE error fix C\r\n$";
 
 uint16_t DeviceInit( void )
 {
+    maine();
     printMsg(hellomsg);
 
     fpRequest->r_endaddr = MK_FP(getCS(), &transient_data);
