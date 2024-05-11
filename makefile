@@ -37,7 +37,7 @@ CFLAGS += -DUSE_INTERNAL_STACK -DSTACK_SIZE=300
 CFLAGS += -zu
 !endif
 
-TARGET = template.sys
+TARGET = vcache_err_fix.sys
 
 OBJ =	maine.obj cstrtsys.obj devinit.obj template.obj
 
