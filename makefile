@@ -39,7 +39,7 @@ CFLAGS += -zu
 
 TARGET = template.sys
 
-OBJ =	cstrtsys.obj devinit.obj template.obj
+OBJ =	maine.obj cstrtsys.obj devinit.obj template.obj
 
 all : $(TARGET)
 
