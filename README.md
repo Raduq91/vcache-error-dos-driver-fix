@@ -9,7 +9,7 @@ In the cmd window 'cd' to 'dos-device-driver-main' folder path
 In the cmd window execute command 'wmake'  
 
 In config.sys, I put it before himem and emm386:  
-DEVICE=vcache_err_fix.sys  
+DEVICE=VCEF.sys  
 
 For me, I get system freeze if I use the cregfix.com file from autoexec.bat after emm386.exe is loaded in config.sys  
 Using the cregfix as 'dos driver' It changes the registers before emm386 is loaded.
